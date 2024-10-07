@@ -1,0 +1,958 @@
+*
+{
+    box-sizing: border-box; padding:0; margin:0;@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap'); user-select: none;
+}
+
+ #dark-btn:checked ~ .body-wrap
+{
+     background-size: cover; background-position: center; background:#0000002c;
+} 
+
+#dark-btn:checked ~ .body-wrap nav a span
+{
+    color: rgba(14, 230, 219, 0.87);
+}
+
+#dark-btn:checked ~ .body-wrap nav a 
+{
+    box-shadow:3px 2px 5px 5px  #000, 2px 2px 4px 4px inset #000; border:2px solid #ccc; background:url(https://i.pinimg.com/564x/5d/6b/1d/5d6b1dec375eef884a067dfa4026d055.jpg); background-size: cover; background-position: center; border:4px solid rgba(0, 162, 255, 0.356);
+}
+
+#dark-btn:checked ~ .body-wrap nav a:hover span
+{
+    color:greenyellow; transition: 0.6s linear;
+}
+
+ body label i
+ {
+ background: url(https://i.pinimg.com/564x/e2/a8/52/e2a852e3635408043d4bf86083c0cc6b.jpg);   border-radius: 50%; box-shadow: 2px 2px 3px 3px inset #000; color:rgba(255, 255, 0, 0.562); border:2px solid #00000005; background-size:cover; background-position:center;
+ } 
+
+ body
+{
+     background:url(https://i.pinimg.com/564x/9c/58/3c/9c583c92b18d823009f2dab0733b1493.jpg); backdrop-filter: blur(5px); background-size: auto 100%; background-position: center; 
+} 
+body::-webkit-scrollbar
+{
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background: url(https://i.pinimg.com/564x/51/10/fd/5110fdc82b8149bbe84cf31ea63532d2.jpg); border-radius: 10px; background-size: cover; background-position: center;
+}
+
+:root
+{
+     --bg-color:linear-gradient(90deg,rgba(0, 0, 0, 0.575),rgba(150, 0, 137, 0.281),rgba(0, 255, 255, 0.199),rgba(0, 0, 0, 0.678));
+--box-shadow:#000;
+    --text-color:#fff;
+
+    --heading-color:#ccc;
+--nav-color:#000;
+    --p1:#fff;
+    --p2:cyan;
+    --social-icons:cyan;
+    --hover-color: greenyellow;
+
+    --font-family:"Poppins",sans-serif;
+}
+ 
+header svg
+{
+    display: none;
+}
+.menu-btn,.menu-btn-2
+{
+    background: gray; border-radius: 50%; 
+} 
+
+.body-wrap{
+    min-height: 100vh;  border-radius: 8px; box-shadow:5px 5px 20px 20px #000; background: linear-gradient(rgba(0, 247, 255, 0.418),transparent,rgba(0, 247, 255, 0.336));
+}
+
+
+header
+{
+    min-height:10vh ;  display: flex; align-items: center; justify-content: space-between; padding: 15px; gap:20px; padding-left: 50px; padding-right: 40px; background: linear-gradient(45deg,rgba(0, 0, 255, 0.459),rgba(128, 128, 128, 0.39)); 
+    }
+     
+    
+
+ 
+.planet
+{
+ box-shadow: 3px 2px 5px 5px  #000,inset 2px 2px 3px 3px #000; border-radius: 50%; height:100px; width: 100px; display: flex; justify-content: center; align-items: center; position: relative; background: url(crop\ wave.gif); background-size: cover; background-position: center; border:3px solid rgba(128, 128, 128, 0.096);
+}
+ 
+.logo
+{
+     display: flex; justify-content: center; align-items: center;box-shadow:1px 1px 2px 2px inset #000,5px 3px 3px 3px black; border-radius: 8px; margin-right: auto;  background-position: center; background-size: cover; border:4px solid rgba(0, 255, 255, 0.24); background: url(https://i.pinimg.com/564x/70/29/f2/7029f2a27927ad19ad0d012f03ed7c66.jpg);
+}
+
+.logo p
+{
+    font-weight: bold;  font-family: var(--font-family);padding:clamp(4px,2vw,6px);  background:linear-gradient(90deg,black,white); background-clip: text; color: transparent; 
+}
+
+nav
+{
+   width:50%; height:54px; display: flex; justify-content: center; align-items: center; font-family: "poppins",sans-serif; font-weight: bold; margin-right: 10px;
+}
+
+nav a
+
+{
+ box-shadow:3px 2px 5px 5px  #000, 1px 1px 3px 3px inset #000; border-radius: 8px; height:50px; width:100px; display: flex; justify-content: center; align-items: center; color:var(--text-color); border:4px solid rgba(128, 128, 128, 0.425); background:url(https://i.pinimg.com/564x/d6/1e/23/d61e239bf647549c3c57339ceb78c41a.jpg); background-size: cover; background-position: center;
+}
+
+nav a:hover
+{
+  color: greenyellow; transition: 0.6s linear;
+}
+
+
+
+a:active
+{
+    color:rgb(0, 195, 255);
+}
+
+.main-wrap
+{
+   min-height:86vh; position: relative;
+}
+
+
+
+.main-wrap .content
+{
+    width: 100%; min-height:80vh; 
+}
+
+.content-1
+{
+  min-height:40vh; display: flex; flex-direction: column; justify-content: center; padding: 50px; z-index: 1;
+}
+
+
+
+.main-wrap .content-1 h3
+{
+    font-weight: bold;color: var(--p1); font-family: var(--font-family); 
+}
+
+.main-wrap .content-1 h1
+{
+    font-weight: bold;color: var(--p1); font-family: var(--font-family); margin-left: 5px; margin-top: 10px; text-shadow: 4px 4px 2px #000; 
+}
+ 
+.main-wrap .content-1 p
+{
+    font-weight: bold;color: var(--p1); font-family: var(--font-family);  margin-top: 10px;
+} 
+
+.main-wrap .content-1 span
+{
+    font-weight: bold; font-family: var(--font-family);   background:linear-gradient(90deg,rgba(255, 255, 255, 0.452),rgb(0, 255, 255));  color: transparent; background-clip: text; margin-top: 10px;text-shadow: 2px 2px 3px #000;
+}
+
+.main-wrap .content-1 .list
+{
+    font-weight: bold;color: var(--p1); font-family: var(--font-family); margin-left: 5px; margin-top: 20px;
+}
+
+
+.main-wrap .box
+{
+
+width:100; border-radius:  8px; background-color: rgba(0, 119, 255, 0.425); padding: 5px; box-shadow: 1px 1px 3px 3px inset #000; font-family: ;
+}
+
+input
+{
+    display: none;
+}
+
+
+.social-media-icons
+{
+     height:50px; display: flex; align-items: center; justify-content:center; gap:10px;
+}
+
+@property --angle
+{
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+.facebook:hover
+{
+    --angle:360deg;
+}
+
+.facebook
+{
+height:40px; width:40px; background: #fff; border-radius: 50%; position: relative; z-index: 2; cursor: pointer; border: 2px solid #cccccc77;box-shadow:2px 2px 3px 3px inset var(--box-shadow),3px 3px 3px 3px var(--box-shadow) ;
+}
+
+
+
+.facebook::before
+{
+content:""; inset:-3px; background:conic-gradient(greenyellow var(--angle),transparent var(--angle)); border-radius: 50%; position: absolute;  transition:--angle 0.6s linear; z-index: -1;  
+}
+
+.instagram:hover
+{
+    --angle:360deg;
+}
+
+
+.instagram
+{
+height:40px; width:40px; background:linear-gradient(orange,rgb(3, 175, 255)); border-radius: 50%; position: relative; z-index: 2; cursor: pointer;border: 2px solid #cccccc4b;box-shadow:2px 2px 3px 3px inset var(--box-shadow),3px 3px 3px 3px var(--box-shadow) ;
+}
+
+
+
+
+.instagram::before
+{
+content:""; inset:-3px; background:conic-gradient(greenyellow var(--angle),transparent var(--angle)); border-radius: 50%; position: absolute;  transition:--angle 0.6s linear; z-index: -1;
+}
+
+
+
+.linkedin:hover
+{
+    --angle:360deg;
+}
+
+
+.linkedin
+{
+height:40px; width:40px; background: #fff; border-radius: 50%; position: relative; z-index: 2; cursor: pointer;border: 2px solid #cccccc6c;box-shadow:2px 2px 3px 3px inset var(--box-shadow),3px 3px 3px 3px var(--box-shadow);
+}
+
+
+.linkedin::before
+{
+content:""; inset:-3px; background:conic-gradient(greenyellow var(--angle),transparent var(--angle)); border-radius: 50%; position: absolute;  transition:--angle 0.6s linear; z-index: -1;
+}
+
+
+.twitter:hover
+{
+    --angle:360deg;
+}
+
+
+.twitter::before
+{
+content:""; inset:-3px; background:conic-gradient(greenyellow var(--angle),transparent var(--angle)); border-radius: 50%; position: absolute;  transition:--angle 0.6s linear; z-index: -1;
+}
+
+
+.twitter
+{
+height:40px; width:40px; background: #fff; border-radius: 50%; position: relative; z-index: 2; cursor: pointer;border: 2px solid #ccc;box-shadow:2px 2px 3px 3px inset var(--box-shadow),3px 3px 3px 3px var(--box-shadow) ;
+}
+
+.github:hover
+{
+    --angle:360deg;
+}
+.github
+{
+height:40px; width:40px; background: #fff; border-radius: 50%; position: relative; z-index: 2; cursor: pointer;border: 2px solid #cccccc75;box-shadow:2px 2px 3px 3px inset var(--box-shadow),3px 3px 3px 3px var(--box-shadow) ;
+}
+
+
+.github::before
+{
+content:""; inset:-3px; background:conic-gradient(greenyellow var(--angle),transparent var(--angle)); border-radius: 50%; position: absolute;  transition:--angle 0.6s linear; z-index: -1; 
+}
+
+
+
+.main-wrap .content-1 .button
+{
+  width:150px; height:50px; padding: 10px; display: flex; justify-content: center; align-items: center;  font-weight: bold; border-radius: 20px; font-family: var(--font-family); margin-top:20px;box-shadow:2px 2px 3px 3px inset #000,3px 3px 3px 3px var(--box-shadow) ; color:var(--p1);text-shadow: 2px 2px 3px #000; background: url(https://i.pinimg.com/564x/6f/51/d9/6f51d9e965ab4c63818dc8a0cfab712d.jpg); background-size: cover; background-position: center; border:4px solid rgba(128, 128, 128, 0.26);transition: 0.6s linear;
+}
+
+
+.main-wrap .content-1 .button:hover
+{
+    color:rgb(12, 238, 80); transition: 0.6s linear; cursor: pointer; backdrop-filter: blur(15px);  text-shadow: 2px 2px 3px #000; box-shadow:1px 1px 2px 2px #000, 2px 2px 10px 10px rgb(0, 174, 255); backdrop-filter: blur(10px); transform: translatey(-10px);
+}
+
+
+#dark-btn:checked ~.body-wrap .main-wrap .content-1 .button
+{
+background: url(https://i.pinimg.com/564x/91/e0/7f/91e07f92f8d94ecc7a52ef0f711704ed.jpg); background-size:cover ; background-position: center; 
+}
+
+#dark-btn:checked ~.body-wrap .main-wrap .content-1 .button:hover
+{
+color:darkcyan;
+}
+
+.qualification-wrap
+{
+    width:100%;padding: 10px; display: flex; justify-content: space-between;
+}
+
+
+.edu-card
+{
+ width:30%;  background:blue; border-radius: 10px; position: relative; border-top-left-radius:50px; display: flex; justify-content: flex-end; overflow: hidden; transition: 0.6s linear;
+}
+
+.glass-1
+{
+ position: absolute; background: rgb(0, 0, 0); border-radius: 10px; backdrop-filter: blur(5px); border-top-left-radius: 20px; inset:6px;border-top-left-radius: 50px; overflow: hidden; transform:translate3d(0,0,25px); transition: 0.6s linear; border: 1px solid white;
+}
+
+@property --angle
+{
+    syntax:"<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+
+
+@property --angle
+{
+    syntax:"<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+
+
+.edu-card::before
+{
+content: ""; position: absolute;inset:-4px; background: conic-gradient(from var(--angle),rgba(0, 255, 255, 0.658),rgba(0, 0, 0, 0.568),greenyellow,rgba(0, 0, 0, 0.521)); animation: rotate 2s linear infinite; border-radius: inherit;  backdrop-filter: blur(5px);
+}
+
+@keyframes rotate {
+    0%
+    {
+    transform: rotate(0deg);
+    }
+
+    100%
+    {
+       --angle:360deg;
+    }
+}
+
+.edu-logo
+{
+    position: absolute; background:linear-gradient(rgb(0, 0, 255),rgb(255, 255, 255)); width:100px; height:100px; border-top-left-radius: 50px;border-bottom-right-radius: 50px;  transition: 0.6s linear; 
+}
+
+
+.edu-logo .i-wrap
+{
+width:70px; height:70px; background-color: rgb(8, 8, 8); position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);border-radius: 40px 10px 40px 10px;transition: 0.6s linear;
+}
+
+.edu-card:hover .edu-logo .i-wrap
+{
+width:90%; transition: 0.6s linear;
+}
+
+.edu-logo::before
+{
+    content: ""; position: absolute; height:10px;width:10px; border-top-left-radius: 30px; background-color:transparent; top:100%;  box-shadow: -5px -5px  0px 5px rgb(245, 245, 250);
+    
+}
+
+
+.edu-logo::after
+{
+    content: ""; position: absolute; height:10px;width:10px; border-top-left-radius: 30px; background-color:transparent;  right:-10px;  box-shadow: -5px -5px  0px 5px rgb(0, 25, 253);
+    
+}
+
+
+.edu-card:hover .edu-logo
+{
+    width:100%; transition: 0.6s linear; 
+}
+
+.edu-logo i
+{
+    position: absolute; font-size: 40px; top:50%; left:50%; transform: translate(-50%,-50%); color:gray;
+}
+
+
+.education-wrap
+{
+    width:100%;position: absolute; top:40%;
+}
+
+
+
+
+.card2
+{
+    width:30%; background: rgb(7, 236, 129); border-radius: 20px; border-top-left-radius: 55px; position: relative;
+}
+
+.glass-2
+{
+    position: absolute; background: #000; inset:8px; border-radius: 20px; border-top-left-radius: 55px; overflow: hidden; border:1px solid #fff;transition: 0.6s linear;
+}
+
+.logo2
+{
+    position: absolute; background: rgb(39, 236, 39); height:100px; width:100px; border-bottom-right-radius: 55px;transition: 0.6s linear;
+}
+
+.logo2::before
+{
+    content:""; position: absolute; background-color: transparent; height:10px; width:10px; top:100%; border-top-left-radius:50px ; box-shadow: -5px -5px 0px 5px rgb(39, 236, 39);
+}
+
+
+.logo2::after
+{
+    content:""; position: absolute; background-color:transparent; height:10px; width:10px; right: -10px; border-top-left-radius:50px ; box-shadow: -5px -5px 0px 5px rgb(39, 236, 39);
+}
+
+.card2:hover .logo2
+{
+    width:100%; transition: 0.6s linear;
+}
+
+.card2 .i-wrap2
+{
+width:70px; height:70px; background-color: rgb(8, 8, 8); position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);border-radius: 40px 10px 40px 10px;transition: 0.6s linear; display: flex; justify-content: center; align-items: center;
+}
+
+.i-wrap2 i
+{
+    color: gray;  font-size: 40px;
+}
+
+.card2:hover .i-wrap2
+{
+    width:90%; transition: 0.6s linear;
+}
+
+
+@property --angle
+{
+    syntax:"<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+
+
+.card2::before
+{
+content: ""; position: absolute;inset:-4px; background: conic-gradient(from var(--angle),rgba(0, 255, 255, 0.658),rgba(0, 0, 0, 0.568),greenyellow,rgba(0, 0, 0, 0.521)); animation: rotate 2s linear infinite; border-radius: inherit; z-index: -1; backdrop-filter: blur(5px);
+}
+
+@keyframes rotate {
+    0%
+    {
+    transform: rotate(0deg);
+    }
+
+    100%
+    {
+       --angle:360deg;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.card3
+{
+    width:30%; background: rgb(143, 36, 36); border-radius: 20px; border-top-left-radius: 55px; position: relative;
+}
+
+.glass-3
+{
+    position: absolute; background: #000; inset:8px; border-radius: 20px; border-top-left-radius: 55px; overflow: hidden; border:1px solid #fff;transition: 0.6s linear;
+}
+
+.logo3
+{
+    position: absolute; background: rgb(143, 36, 36); height:100px; width:100px; border-bottom-right-radius: 55px;transition: 0.6s linear;
+}
+
+.logo3::before
+{
+    content:""; position: absolute; background-color: transparent; height:10px; width:10px; top:100%; border-top-left-radius:50px ; box-shadow: -5px -5px 0px 5px rgb(143, 36, 36);
+}
+
+
+.logo3::after
+{
+    content:""; position: absolute; background-color:transparent; height:10px; width:10px; right: -10px; border-top-left-radius:50px ; box-shadow: -5px -5px 0px 5px rgb(143, 36, 36);
+}
+
+.card3:hover .logo3
+{
+    width:100%; transition: 0.6s linear;
+}
+
+.card3 .i-wrap3
+{
+width:70px; height:70px; background-color: rgb(8, 8, 8); position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);border-radius: 40px 10px 40px 10px;transition: 0.6s linear; display: flex; justify-content: center; align-items: center;
+}
+
+.i-wrap3 i
+{
+    color: gray;  font-size: 40px;
+}
+
+.card3:hover .i-wrap3
+{
+    width:90%; transition: 0.6s linear;
+}
+
+
+@property --angle
+{
+    syntax:"<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+
+
+.card3::before
+{
+content: ""; position: absolute;inset:-4px; background: conic-gradient(from var(--angle),rgb(157, 255, 0),rgba(0, 0, 0, 0.568),rgb(78, 156, 14),rgba(0, 0, 0, 0.521)); animation: rotate 2s linear infinite; border-radius: inherit; z-index: -1; backdrop-filter: blur(5px);
+}
+
+@keyframes rotate {
+    0%
+    {
+    transform: rotate(0deg);
+    }
+
+    100%
+    {
+       --angle:360deg;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer 
+{
+    height:100px; display: flex; justify-content:; align-items: center;  background: #000000b0;padding: 20px;
+}
+
+
+footer .logo
+{
+  display: flex; justify-content: center;  align-items: center;box-shadow:1px 1px 2px 2px inset #000,5px 3px 3px 3px black; border-radius: 8px;
+}
+footer .logo p
+{
+ font-weight: bold;  font-family: var(--font-family);padding:clamp(4px,2vw,6px);  background:linear-gradient(90deg,black,white); background-clip: text; color: transparent; 
+}
+
+footer .seperater
+{
+    height: 75px; background-color: #ccc; width:5px; border-radius: 80px; box-shadow: 1px 1px 2px 2px inset #000; margin-right: 40px;
+}
+
+.sid 
+{
+   width:100%; display: flex;  align-items: center; justify-content:flex-end;gap:10px;
+}
+footer p
+{
+color: var(--p1);
+}
+
+
+
+.content2
+{
+   position: relative; display: flex; align-items: center;  width:50%; justify-content: center;
+}
+
+
+
+
+.container
+{
+     perspective: 1000px; transform-style: preserve-3d; position: relative; 
+}
+
+.card
+{
+    height:100%; width:100%; background:url(https://i.pinimg.com/564x/f8/72/11/f8721133cb5dd7723b6d51175117e846.jpg);  transform-style: preserve-3d; transition: 0.5s linear; position: absolute;box-shadow:10px 40px 25px #0c753831 ,0px 20px 30px #0000009f; background-size: cover; 
+} 
+.glass
+{
+    transform-style: preserve-3d; background: linear-gradient(rgba(129, 202, 202, 0.534),rgba(34, 32, 32, 0.411)); inset:8px;  border-left: 1px solid white;
+    border-bottom: 1px solid white; position: absolute; border-radius: 55px; border-top-right-radius: 100%; transform: translate3d(0, 0, 25px);  
+}
+
+
+.card .logo1
+{
+    position: absolute; top:0; right:0; transform-style: preserve-3d; transition: 0.5s linear; 
+}
+
+.circle
+{
+    position: absolute; top:0; right:0; background: rgba(14, 228, 199, 0.315);transform-style: preserve-3d; transition: 0.5s linear; aspect-ratio: 1;  box-shadow: #64646f33 -10px 10px 20px; border-radius: 50%; 
+}
+
+.circle1
+{
+width: 170px; top:8px; right:8px; transition-delay: 0.0s; transform: translate3d(0,0,20px);
+}
+
+.circle2
+{
+    width:140px; top:10px; right:10px; transition-delay: 0.4s; transform: translate3d(0,0,40px);
+}
+
+
+.circle3
+{
+    width:110px; top:17px; right:17px; transition-delay: 0.8s; transform: translate3d(0,0,60px);
+}
+
+
+.circle4
+{
+    width:80px; top:23px; right:23px; transition-delay: 1.2s; transform: translate3d(0,0,80px);
+}
+
+.circle5
+{
+    width:50px; top:30px; right:30px; transition-delay: 1.6s; transform: translate3d(0,0,100px); display: flex; justify-content: center; align-items: center; font-family: "Poppins", sans-serif; 
+}
+
+
+.logo1 p
+{
+    color: #fff;   -webkit-text-stroke: 1px #000;
+}
+
+.container:hover .card
+{
+    transform: rotate3d(1,1,0,30deg); transition: 0.5s;  box-shadow:
+                #0547110d 30px 50px 25px,
+                #05471111 0px 25px 30px;
+}
+
+
+.container:hover .circle2
+{
+    transform: translate3d(0,0,60px);
+}
+
+.container:hover .circle3
+{
+    transform: translate3d(0,0,80px);
+}
+
+.container:hover .circle4
+{
+    transform: translate3d(0,0,100px);
+}
+
+.container:hover .circle5
+{
+    transform: translate3d(0,0,120px);
+}
+ 
+.container:hover .glass img
+{
+    filter: drop-shadow(-4px 2px 10px #000);
+} 
+
+
+.glass img
+{
+    z-index:10; position: absolute; bottom: 0; filter: drop-shadow(4px 4px 10px #000 ); transition: 1s linear; border-bottom-left-radius:50px ; 
+}
+   
+  .my-tools
+  {
+position: absolute; bottom:20%; right:10px;  width:50%; flex-wrap: wrap; display: flex;  justify-content: space-between; border-radius: 10px; perspective: 1000px; transform-style: preserve-3d; transition: 0.6s linear ; gap:3px
+  } 
+
+  .my-tools i
+  {
+     box-shadow: 3px 3px 2px 2px #0000004d; border-radius: 8px; background: #ffffff80;
+} 
+
+
+  .container:hover .bxl-html5
+  {
+transform: translateZ(5px); box-shadow: 0px 5px 4px 4px  rgba(0, 0, 0, 0.281);
+  }
+
+
+  .container:hover .bxl-css3
+  {
+transform: translateZ(5px); box-shadow: 0px 5px 4px 4px  rgba(0, 0, 0, 0.281);
+  }
+
+
+  .container:hover .bxl-tailwind-css
+  {
+transform: translateZ(5px);box-shadow: 0px 5px 4px 4px  rgba(0, 0, 0, 0.281);
+  }
+
+  .container:hover .bxl-javascript
+  {
+transform: translateZ(5px);box-shadow: 0px 5px 4px 4px  rgba(0, 0, 0, 0.281);
+  }
+
+  .my-tools .bxl-html5
+  {
+    color: rgb(255, 174, 0);transition:0.2s linear 0.8s ;
+  }
+
+  .my-tools  .bxl-css3
+  {
+    color:rgb(0, 81, 255); transition:0.2s linear 0.6s ;
+  }
+  
+  .my-tools .bxl-javascript
+  {
+    color: yellow;transition:0.2s linear 0.4s;
+  }
+
+  .my-tools .bxl-tailwind-css
+  {
+    color: rgb(0, 89, 255);transition:0.2s linear 0.2s;
+  }
+
+  .container
+  {
+       position: relative;  perspective: 1000px; transform-style: preserve-3d; 
+ }
+
+
+#dark-btn:checked~.body-wrap .content2 .container .card
+{
+  position: absolute; transform-style: preserve-3d;  background:url(https://i.pinimg.com/564x/98/d1/24/98d124b779940ae04298791edacd1b35.jpg);  background-size: cover; background-position: center;
+}
+
+
+#dark-btn:checked~.body-wrap .content2 .container .card .logo
+{
+    position: absolute;
+}
+
+#dark-btn:checked~.body-wrap .content2 .container .card .logo
+{
+    top:0; right:0; transition: 0.5s linear; transform-style: preserve-3d;    position: absolute; inset:8px; border-radius: 55px; border-top-right-radius: 100%; background:linear-gradient(135deg,rgba(146, 118, 118, 0.295),rgba(18, 169, 180, 0.671)); border-left: 1px solid white; border-bottom: 1px solid white; transform:translate3d(0,0,25px); transform-style: preserve-3d; 
+}
+
+
+#dark-btn:checked~.body-wrap .content2 .container .card .glass
+{
+    position: absolute; inset:8px; border-radius: 55px; border-top-right-radius: 100%; background:linear-gradient(135deg,rgba(0, 0, 0, 0.418),rgba(53, 209, 144, 0.479)); border-left: 1px solid white; border-bottom: 1px solid white; transform:translate3d(0,0,25px); transform-style: preserve-3d; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width:640px)
+ {
+
+.body-wrap
+{
+    min-height: 90vh; 
+}
+    
+ 
+ nav a span:nth-child(2)
+{
+    display:none
+} 
+
+nav 
+{
+     top:95%; position: absolute; right:0px;  transform: rotate(90deg);display: flex; gap: 4px;
+}
+
+
+
+
+header
+{
+    height:20px; padding: 10px;    position: relative; 
+}
+   
+   
+    .menu-btn
+    {
+        background: rgb(0, 174, 255); border-radius: 50%; display: block; position: absolute;transition: 0.6s linear; top:50%; right:0%; transform: translate(-50%,-50%); border: 2px solid rgb(226, 212, 212); box-shadow: 1px 1px 3px 3px inset #000;
+    } 
+
+
+    .menu-btn-2
+    {
+        background: rgb(0, 174, 255); border-radius: 50%; display: block; position: absolute; opacity: 0;transition: 0.6s linear; top:50%; right:0%; transform: translate(-50%,-50%); border: 2px solid rgb(226, 212, 212); box-shadow: 1px 1px 3px 3px inset #000;
+    } 
+
+#click:checked~label .menu-btn
+{
+    transform: translate(-50%,-50%) rotate(90deg); opacity:0; transition: 0.6s linear; top:50%; right:0%; 
+}
+
+
+#click:checked~label .menu-btn-2
+{
+    transform: translate(-50%,-50%) rotate(90deg); opacity:1; transition: 0.6s linear; top:50%; right:0%; 
+}
+
+nav a
+{
+width:40px; height:40px; opacity:0 ;  padding: 5px; transition: 0.6s linear; border:2px solid;
+}
+
+nav a span:nth-child(1)
+{transform: rotate(-90deg); 
+}
+
+
+#click:checked~ nav  a 
+{
+ transition: 0.6s linear; opacity: 1;
+}
+
+    .content-1
+    {
+        padding: 10px; margin-top: 10px;
+    }
+
+
+    .content-1 .social-media-icons
+    {
+        margin-top: 30px;
+    }
+
+
+.content2
+{
+margin-top: 0px; position: relative; width:100%;  display: flex; justify-content: center;
+}
+
+.social-media-icons
+{
+    justify-content: center; gap:4px; margin-top: 10px;
+}
+
+.main-wrap .content-1 .button
+{
+    width:100px; height:40px; 
+}
+.main-wrap .content-1 .button a
+{
+    font-size: 10px;
+}
+
+label i
+{
+    position: absolute; z-index: 10; left:50%; font-size: 30px; 
+}
+footer
+{
+display: flex; height: 70px; flex-direction: column;
+} 
+
+footer .logo
+{
+    width:120px; height:40px;
+}
+footer .logo p
+{
+    font-size: 10px;
+}
+
+footer .seperater
+{
+display: none;
+}
+
+.contacts
+{
+   display: flex;  align-items: center; justify-content:flex-end;gap:5px;
+}
+.qualification-wrap
+{
+    display: none;
+}
+
+}
